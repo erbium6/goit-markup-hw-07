@@ -23,33 +23,33 @@
     <header class="header">
       <!-- навигация -->
       <div class="container">
-        <nav class="navigation-main-paige">
-          <a class="main-logo" href="./index.html">
-            <span class="logo">Web</span
-            ><span class="logo-studio">Studio</span></a
+        <nav class="navigation">
+          <a class="navigation__main-logo" href="./index.html">
+            <span class="navigation__logo">Web</span
+            ><span class="navigation__logo-studio">Studio</span></a
           >
-          <ul class="nav-links">
-            <li class="item">
-              <a href="./index.html" class="link current-link">Студия</a>
+          <ul class="site-nav">
+            <li class="site-nav__item">
+              <a href="./index.html" class="site-nav__link site-nav__current-link">Студия</a>
             </li>
-            <li class="item">
-              <a href="./portfolio.html" class="link">Портфолио</a>
+            <li class="site-nav__item">
+              <a href="./portfolio.html" class="site-nav__link">Портфолио</a>
             </li>
-            <li class="item"><a href="" class="link">Контакты</a></li>
+            <li class="site-nav__item"><a href="" class="site-nav__link">Контакты</a></li>
           </ul>
 
           <ul class="contacts-list">
-            <li class="item">
-              <a href="mailto:info@devstudio.com" class="contacts">
-                <svg class="icon-navigation" width="16px" height="12px">
+            <li class="contacts-list__item">
+              <a href="mailto:info@devstudio.com" class="contacts-list__link">
+                <svg class="contacts-list__icon" width="16px" height="12px">
                   <use href="./images/icons.svg#icon-envelope"></use>
                 </svg>
                 info@devstudio.com</a
               >
             </li>
-            <li class="item">
-              <a href="tel:+380961111111" class="contacts">
-                <svg class="icon-navigation" width="10px" height="16px">
+            <li class="contacts-list__item">
+              <a href="tel:+380961111111" class="contacts-list__link">
+                <svg class="contacts-list__icon" width="10px" height="16px">
                   <use href="./images/icons.svg#icon-smartphone"></use>
                 </svg>
                 +38 096 111 11 11</a
@@ -63,66 +63,66 @@
     <main>
       <!-- Герой -->
       <section class="hero">
-        <div class="container-hero">
-          <h1 class="hero-title">
+        <div class="container">
+          <h1 class="hero__title">
             Эффективные решения <br />
             для вашего бизнеса
           </h1>
-          <button type="button" class="button-hero" data-modal-open>
+          <button type="button" class="hero__button" data-modal-open>
             Заказать услугу
           </button>
         </div>
       </section>
       <!-- Наши преймущества -->
-      <section class="section-advantages">
+      <section class="advantages">
         <div class="container">
-          <div class="container-advantages">
-            <div class="advantages-list">
-              <svg class="icon" width="70px" height="70px">
+          <div class="advantages__container">
+            <div class="advantages__list">
+              <svg class="advantages__icon" width="70px" height="70px">
                 <use href="./images/icons.svg#icon-antenna"></use>
               </svg>
             </div>
-            <div class="advantages-list">
+            <div class="advantages__list">
               <svg class="icon" width="70px" height="70px">
                 <use href="./images/icons.svg#icon-clock"></use>
               </svg>
             </div>
-            <div class="advantages-list">
-              <svg class="icon" width="70px" height="70px">
+            <div class="advantages__list">
+              <svg class="advantages__icon" width="70px" height="70px">
                 <use href="./images/icons.svg#icon-diagram"></use>
               </svg>
             </div>
-            <div class="advantages-list">
-              <svg class="icon" width="70px" height="70px">
+            <div class="advantages__list">
+              <svg class="advantages__icon" width="70px" height="70px">
                 <use href="./images/icons.svg#icon-astronaut"></use>
               </svg>
             </div>
           </div>
           <ul class="feature-list">
-            <li class="item icon-antena">
-              <h3 class="section-title-h3">Внимание к деталям</h3>
-              <p class="text-advantages">
+            <li class="feature-list__item">
+              <h3 class="feature-list__title">Внимание к деталям</h3>
+              <p class="feature-list__text">
                 Идейные соображения, а также начало повседневной работы по
                 формированию позиции.
               </p>
             </li>
-            <li class="item icon-clock">
-              <h3 class="section-title-h3">Пунктуальность</h3>
-              <p class="text-advantages">
+            <li class="feature-list__item">
+              <h3 class="feature-list__title">Пунктуальность</h3>
+              <p class="feature-list__text">
                 Задача организации, в особенности же рамки и место обучения
                 кадров влечет за собой.
               </p>
             </li>
-            <li class="item icon-diagrama">
-              <h3 class="section-title-h3">Планирование</h3>
-              <p class="text-advantages">
+            <li class="feature-list__item">
+              <h3 class="feature-list__title">Планирование</h3>
+              <p class="feature-list__text">
                 Равным образом консультация с широким активом в значительной
                 степени обуславливает.
               </p>
             </li>
-            <li class="item icon-astronaut">
-              <h3 class="section-title-h3">Современные технологии</h3>
-              <p class="text-advantages">
+            <li class="feature-list__item">
+              <h3 class="feature-list__title">Современные технологии</h3>
+              <p class="feature-list__text">
                 Значимость этих проблем настолько очевидна, что реализация
                 плановых заданий.
               </p>
@@ -130,42 +130,42 @@
           </ul>
         </div>
       </section>
-      <!-- Примеры работ -->
+       <!-- Чем мы занимаемся  -->
       <section class="section-examples">
-        <div class="container-exemples">
-          <h2 class="section-title-h2">Чем мы занимаемся</h2>
-          <ul class="exemples-list">
-            <li class="item">
+        <div class="exemples">
+          <h2 class="exemples__title">Чем мы занимаемся</h2>
+          <ul class="exemples__list">
+            <li class="exemples__item">
               <img
-                class="img"
+                class="exemples__img"
                 src="./images/img4.jpg"
                 alt="мониторы и работа за клавиатурой"
                 width="370"
               />
-              <div class="exemples-box">
-                <p class="examples-text">десктопные приложения</p>
+              <div class="exemples__box">
+                <p class="examples__text">десктопные приложения</p>
               </div>
             </li>
-            <li class="item">
+            <li class="exemples__item">
               <img
-                class="img"
+                class="exemples__img"
                 src="./images/img5.jpg"
                 alt="раабота за ноутбуком"
                 width="370"
               />
-              <div class="exemples-box">
-                <p class="examples-text">Мобильные приложения</p>
+              <div class="exemples__box">
+                <p class="examples__text">Мобильные приложения</p>
               </div>
             </li>
-            <li class="item">
+            <li class="exemples__item">
               <img
-                class="img"
+                class="exemples__img"
                 src="./images/img6.jpg"
                 alt="работа с планшетом"
                 width="370"
               />
-              <div class="exemples-box">
-                <p class="examples-text">Дизайнерские решения</p>
+              <div class="exemples__box">
+                <p class="examples__text">Дизайнерские решения</p>
               </div>
             </li>
           </ul>
