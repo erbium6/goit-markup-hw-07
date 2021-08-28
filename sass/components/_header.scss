@@ -25,7 +25,9 @@
 }
 }
 
-.site-nav__current-link::after {
+.site-nav__current-link{
+
+  &::after {
   content: "";
 
   position: absolute;
@@ -38,6 +40,8 @@
   background-color: $accent-text-color;
   border-radius: 2px;
 }
+}
+
 
 
 
